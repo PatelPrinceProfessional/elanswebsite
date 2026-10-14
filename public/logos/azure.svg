@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 40" fill="none">
+  <path d="M5 28L15 11l7 12H8.5L5 28z" fill="#0078D4"/>
+  <path d="M16 28h15l-9-15-4 7.5L16 28z" fill="#50E6FF"/>
+  <text x="38" y="24" font-family="'Helvetica Now', 'Inter', system-ui, sans-serif" font-weight="800" font-size="16" letter-spacing="-0.3" fill="#111827">Azure</text>
+  <text x="86" y="24" font-family="'Helvetica Now', 'Inter', system-ui, sans-serif" font-weight="500" font-size="12" fill="#6B7280">Cloud</text>
+</svg>

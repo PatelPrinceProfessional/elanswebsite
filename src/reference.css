@@ -6371,6 +6371,23 @@ figcaption {
   position: relative;
 }
 
+.partner-tech-logo {
+  max-width: 9em;
+  max-height: 2.6em;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  opacity: 0.85;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  filter: grayscale(20%);
+}
+
+.partner-tech-logo:hover {
+  opacity: 1;
+  transform: scale(1.05);
+  filter: grayscale(0%);
+}
+
 .marquee__advanced__p {
   white-space: nowrap;
   margin-bottom: 0;

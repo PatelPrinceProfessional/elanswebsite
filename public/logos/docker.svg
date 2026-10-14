@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 40" fill="none">
+  <path d="M4 22c1.5-5 6-7 12-7 1 0 4 .2 6 1 .5-2 2-3.5 4-4 0 0 1 2 0 4h2c2 0 4 2 4 4.5 0 5-4.5 8.5-12 8.5-7.5 0-14-2.5-16-7z" fill="#0db7ed"/>
+  <rect x="7" y="14" width="3" height="3" fill="#0db7ed" rx="0.5"/>
+  <rect x="11" y="14" width="3" height="3" fill="#0db7ed" rx="0.5"/>
+  <rect x="15" y="14" width="3" height="3" fill="#0db7ed" rx="0.5"/>
+  <rect x="11" y="10" width="3" height="3" fill="#0db7ed" rx="0.5"/>
+  <rect x="15" y="10" width="3" height="3" fill="#0db7ed" rx="0.5"/>
+  <text x="36" y="24" font-family="'Helvetica Now', 'Inter', system-ui, sans-serif" font-weight="800" font-size="16" letter-spacing="-0.3" fill="#111827">Docker</text>
+</svg>
