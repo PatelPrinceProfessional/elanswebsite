@@ -2166,6 +2166,30 @@ textarea.w-input, textarea.w-select {
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Chronicle Display';
+  src: url("/fonts/ChronicleDisplay-Roman.woff") format("woff");
+  font-weight: 300 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Chronicle Display';
+  src: url("/fonts/ChronicleDisplay-Semibold.woff") format("woff");
+  font-weight: 500 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Chronicle Display';
+  src: url("/fonts/ChronicleDisplay-Black.woff") format("woff");
+  font-weight: 700 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --_theme---background: var(--_colors---swatch--off-white);
   --_paragraphs---paragraph-regular--font: var(--_fonts---fonts--paragraph);
@@ -4907,6 +4931,12 @@ figcaption {
 .heading-alt {
   font-family: var(--_fonts---fonts--alt-heading);
   font-variation-settings: "wght" 300, "wdth" 75, "opsz" 30;
+}
+
+.heading-chronicle {
+  font-family: 'Chronicle Display', 'Chronicle Display Roman', 'Playfair Display', Didot, 'Bodoni MT', Georgia, serif !important;
+  font-style: normal;
+  letter-spacing: -0.02em;
 }
 
 .eyebrow-l {
