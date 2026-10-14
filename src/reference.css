@@ -6363,29 +6363,28 @@ figcaption {
 .marquee-advanced__item-width {
   justify-content: center;
   align-items: center;
-  width: 11em;
+  width: 14em;
   height: 11em;
-  margin-left: 2.5em;
-  margin-right: 2.5em;
+  margin-left: 2em;
+  margin-right: 2em;
   display: flex;
   position: relative;
 }
 
 .partner-tech-logo {
-  max-width: 9em;
-  max-height: 2.6em;
+  max-width: 13.5em;
+  max-height: 4.8em;
   width: auto;
-  height: auto;
+  height: 3.8em;
   object-fit: contain;
-  opacity: 0.85;
+  opacity: 0.95;
   transition: opacity 0.3s ease, transform 0.3s ease;
-  filter: grayscale(20%);
+  filter: drop-shadow(0 2px 8px rgba(0,0,0,0.06));
 }
 
 .partner-tech-logo:hover {
   opacity: 1;
-  transform: scale(1.05);
-  filter: grayscale(0%);
+  transform: scale(1.12);
 }
 
 .marquee__advanced__p {
