@@ -2169,7 +2169,7 @@ textarea.w-input, textarea.w-select {
 @font-face {
   font-family: 'Chronicle Display';
   src: url("/fonts/ChronicleDisplay-Roman.woff") format("woff");
-  font-weight: 300 400;
+  font-weight: 100 400;
   font-style: normal;
   font-display: swap;
 }
@@ -4937,6 +4937,13 @@ figcaption {
   font-family: 'Chronicle Display', 'Chronicle Display Roman', 'Playfair Display', Didot, 'Bodoni MT', Georgia, serif !important;
   font-style: normal;
   letter-spacing: -0.02em;
+}
+
+.heading-chronicle .char {
+  font-family: 'Chronicle Display', 'Chronicle Display Roman', 'Playfair Display', Didot, 'Bodoni MT', Georgia, serif !important;
+  font-weight: var(--wght, 700) !important;
+  transition: font-weight 0.1s ease;
+  display: inline-block;
 }
 
 .eyebrow-l {
