@@ -5,19 +5,19 @@ import markup from "@/assets/reference/werk--addsome.html?raw";
 export const Route = createFileRoute("/werk/addsome")({
   head: () => ({ meta: [
   {
-    "title": "Addsome — elansinfotech"
+    "title": "Velora — Shopify Store — elansinfotech"
   },
   {
     "name": "description",
-    "content": "The creatives at Addsome are certainly no strangers to us. When they launched their own agency, an animation had to be included. Not as an afterthought, but as the moment when Addsome introduced himself to the world."
+    "content": "Velora: Built to Last. Worn Every Day. Premium caps crafted from washed cotton twill. Bespoke Shopify Plus storefront engineered for high conversion, desktop horizontal layout, and mobile-first experience."
   },
   {
     "property": "og:title",
-    "content": "Addsome — elansinfotech"
+    "content": "Velora — Shopify Store — elansinfotech"
   },
   {
     "property": "og:description",
-    "content": "The creatives at Addsome are certainly no strangers to us. When they launched their own agency, an animation had to be included. Not as an afterthought, but as the moment when Addsome introduced himself to the world."
+    "content": "Velora: Built to Last. Worn Every Day. Premium caps crafted from washed cotton twill. Bespoke Shopify Plus storefront engineered for high conversion, desktop horizontal layout, and mobile-first experience."
   },
   {
     "property": "og:type",

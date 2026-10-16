@@ -231,3 +231,38 @@ body, h1, h2, h3, p, a, span { letter-spacing: 0; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
 }
+
+
+/* Velora Shopify Store bespoke visual frame styling */
+.case-section[data-velora-section="desktop"] .case-section_visual-wrap {
+  aspect-ratio: 16 / 9 !important;
+  max-width: 48em !important;
+  border-radius: 18px !important;
+  box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.25), 0 0 0 1px rgba(0, 0, 0, 0.08) !important;
+}
+
+.case-section[data-velora-section="mobile"] .case-section_visual-wrap {
+  aspect-ratio: 4 / 5 !important;
+  max-width: 32em !important;
+  border-radius: 36px !important;
+  box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.25), 0 0 0 1px rgba(0, 0, 0, 0.08) !important;
+}
+
+.case-end_media[data-velora-end] {
+  aspect-ratio: 16 / 9 !important;
+  border-radius: 20px !important;
+  overflow: hidden !important;
+  box-shadow: 0 30px 80px -20px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(0, 0, 0, 0.08) !important;
+}
+
+.case-end_media[data-velora-end] img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  display: block !important;
+  border-radius: inherit !important;
+}
+
+.case-end_media[data-velora-end] video {
+  display: none !important;
+}
