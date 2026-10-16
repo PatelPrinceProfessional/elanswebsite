@@ -266,3 +266,213 @@ body, h1, h2, h3, p, a, span { letter-spacing: 0; }
 .case-end_media[data-velora-end] video {
   display: none !important;
 }
+
+/* ==========================================================================
+   SERVICES INFINITE HORIZONTAL CAROUSEL (GSAP BIDIRECTIONAL ENGINE)
+   ========================================================================== */
+
+.services-infinite-track_viewport {
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  padding: 2rem 0 3.5rem 0;
+  overflow: hidden;
+  cursor: grab;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: pan-y;
+  /* Cinematic edge fading on large viewports */
+  mask-image: linear-gradient(to right, transparent 0%, black 4%, black 96%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 4%, black 96%, transparent 100%);
+}
+
+.services-infinite-track_viewport.is-dragging {
+  cursor: grabbing !important;
+}
+
+.services-infinite-track_viewport.is-dragging * {
+  cursor: grabbing !important;
+  user-select: none !important;
+}
+
+.services-infinite-track_container {
+  display: flex !important;
+  flex-flow: row nowrap !important;
+  align-items: stretch;
+  gap: 1.75rem;
+  width: max-content;
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
+  padding: 0 2rem;
+}
+
+.services-cards_item {
+  flex: 0 0 auto !important;
+  width: clamp(280px, 24vw, 380px) !important;
+  max-width: 90vw !important;
+  transform: skewX(var(--carousel-skew, 0deg)) !important;
+  transform-origin: center bottom;
+  will-change: transform;
+  transition: transform 0.08s ease-out;
+}
+
+.services-cards_item .services-card {
+  width: 100% !important;
+  height: 100% !important;
+  right: auto !important;
+  position: relative;
+}
+
+.services-cards_item .services-card_inner {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.15s ease-out;
+  border-radius: 24px;
+}
+
+.services-cards_item .services-card_wrap {
+  width: 100%;
+  height: 100%;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 
+    0 0 0 1px rgba(255, 255, 255, 0.1) inset,
+    0 12px 32px -8px rgba(0, 0, 0, 0.25),
+    0 32px 64px -16px rgba(0, 0, 0, 0.35);
+  position: relative;
+  transition: box-shadow 0.35s ease, transform 0.35s ease;
+}
+
+.services-cards_item[data-card-hovered="true"] .services-card_wrap {
+  box-shadow: 
+    0 0 0 1px rgba(255, 255, 255, 0.25) inset,
+    0 20px 48px -10px rgba(0, 0, 0, 0.35),
+    0 48px 96px -20px rgba(0, 0, 0, 0.45);
+}
+
+/* Dynamic Cursor Specular Gloss reflection */
+.services-cards_item .services-card_wrap::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  border-radius: inherit;
+  background: radial-gradient(
+    600px circle at var(--glow-x, 50%) var(--glow-y, 50%),
+    rgba(255, 255, 255, 0.18) 0%,
+    rgba(255, 255, 255, 0.05) 40%,
+    transparent 70%
+  );
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  z-index: 4;
+}
+
+.services-cards_item[data-card-hovered="true"] .services-card_wrap::after {
+  opacity: 1;
+}
+
+.services-cards_item .services-card_media {
+  aspect-ratio: 4 / 5;
+  width: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+  background-color: #0b0b0b;
+}
+
+.services-cards_item .video-card-visual__img,
+.services-cards_item .video-card-visual__video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.services-cards_item .video-card-visual__video {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+}
+
+.services-cards_item[data-card-hovered="true"] .video-card-visual__video {
+  opacity: 1;
+}
+
+/* Controls Header / Toolbar */
+.services-carousel_toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  padding: 0 0.5rem;
+}
+
+.services-carousel_hint {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 500;
+}
+
+.services-carousel_hint-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #0070f3;
+  box-shadow: 0 0 10px #0070f3;
+  animation: pulse-dot 2s infinite ease-in-out;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { transform: scale(1); opacity: 0.8; }
+  50% { transform: scale(1.4); opacity: 1; box-shadow: 0 0 16px #0070f3; }
+}
+
+.services-carousel_buttons {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.services-carousel_btn {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.25s ease, border-color 0.25s ease, transform 0.2s ease;
+}
+
+.services-carousel_btn:hover {
+  background: rgba(255, 255, 255, 0.16);
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: scale(1.08);
+}
+
+.services-carousel_btn:active {
+  transform: scale(0.95);
+}
+
+.services-carousel_btn svg {
+  width: 14px;
+  height: 14px;
+}
+

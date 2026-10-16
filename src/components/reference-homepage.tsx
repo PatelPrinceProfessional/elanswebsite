@@ -47,8 +47,18 @@ export function ReferencePage({ markup }: { markup: string }) {
     let dispose: (() => void) | undefined;
     let cancelled = false;
     document.fonts.ready.then(async () => {
-      const { default: initialize } = await import("@/lib/reference-motion.js");
-      if (!cancelled) dispose = initialize(element);
+      const [{ default: initialize }, { initServicesCarousel }] = await Promise.all([
+        import("@/lib/reference-motion.js"),
+        import("@/lib/services-carousel"),
+      ]);
+      if (!cancelled) {
+        const cleanupMotion = initialize(element);
+        const cleanupCarousel = initServicesCarousel(element);
+        dispose = () => {
+          cleanupMotion?.();
+          cleanupCarousel?.();
+        };
+      }
     });
     const wrapper = element.querySelector<HTMLElement>('[rd-cookieflow="wrapper"]');
     if (document.cookie.includes("elansinfotech_consent=")) wrapper?.setAttribute("data-dismissed", "");
