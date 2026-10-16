@@ -105,12 +105,12 @@ export function initServicesCarousel(root: HTMLElement = document.body): Service
 
     // Mathematical Seamless Modulo Wrap in both directions:
     // When moving leftwards and passing the cycle boundary:
-    while (currentX <= -setDistance * 2) {
+    while (currentX <= -setDistance * 1.5) {
       currentX += setDistance;
       targetX += setDistance;
     }
     // When moving rightwards and passing the cycle boundary:
-    while (currentX >= -setDistance * 0.2) {
+    while (currentX >= -setDistance * 0.5) {
       currentX -= setDistance;
       targetX -= setDistance;
     }
