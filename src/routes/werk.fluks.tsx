@@ -5,19 +5,19 @@ import markup from "@/assets/reference/werk--fluks.html?raw";
 export const Route = createFileRoute("/werk/fluks")({
   head: () => ({ meta: [
   {
-    "title": "Fluks — elansinfotech"
+    "title": "Fluks — Real-Time Telemetry Cloud — elansinfotech"
   },
   {
     "name": "description",
-    "content": "Launching a new look is more than just showing a new logo. It's a new story, and that story has to make sense right away. For the launch of Fluks, we made an animation that sets that story in motion."
+    "content": "Cloud platform modernization, real-time telemetry dashboard and event-driven data streaming architecture for Fluks."
   },
   {
     "property": "og:title",
-    "content": "Fluks — elansinfotech"
+    "content": "Fluks — Real-Time Telemetry Cloud — elansinfotech"
   },
   {
     "property": "og:description",
-    "content": "Launching a new look is more than just showing a new logo. It's a new story, and that story has to make sense right away. For the launch of Fluks, we made an animation that sets that story in motion."
+    "content": "Cloud platform modernization, real-time telemetry dashboard and event-driven data streaming architecture for Fluks."
   },
   {
     "property": "og:type",

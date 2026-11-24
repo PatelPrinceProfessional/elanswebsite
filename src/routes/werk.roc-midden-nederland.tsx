@@ -5,19 +5,19 @@ import markup from "@/assets/reference/werk--roc-midden-nederland.html?raw";
 export const Route = createFileRoute("/werk/roc-midden-nederland")({
   head: () => ({ meta: [
   {
-    "title": "ROC Midden NL — elansinfotech"
+    "title": "ROC Midden NL — Enterprise Campus LMS — elansinfotech"
   },
   {
     "name": "description",
-    "content": "Everything moves. Also at ROC Midden Nederland. Their students are the creators of society, and that requires good explanation."
+    "content": "Enterprise educational LMS, identity federation, secure cloud infrastructure and student portal for ROC Midden Nederland."
   },
   {
     "property": "og:title",
-    "content": "ROC Midden NL — elansinfotech"
+    "content": "ROC Midden NL — Enterprise Campus LMS — elansinfotech"
   },
   {
     "property": "og:description",
-    "content": "Everything moves. Also at ROC Midden Nederland. Their students are the creators of society, and that requires good explanation."
+    "content": "Enterprise educational LMS, identity federation, secure cloud infrastructure and student portal for ROC Midden Nederland."
   },
   {
     "property": "og:type",

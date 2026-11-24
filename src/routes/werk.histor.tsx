@@ -5,19 +5,19 @@ import markup from "@/assets/reference/werk--histor.html?raw";
 export const Route = createFileRoute("/werk/histor")({
   head: () => ({ meta: [
   {
-    "title": "Histor — elansinfotech"
+    "title": "Histor — Color Intelligence Engine — elansinfotech"
   },
   {
     "name": "description",
-    "content": "Six episodes, no fixed script, but a catchy and compelling story."
+    "content": "Color intelligence algorithms, computer vision palette matching and interactive cloud visualization platform for Histor."
   },
   {
     "property": "og:title",
-    "content": "Histor — elansinfotech"
+    "content": "Histor — Color Intelligence Engine — elansinfotech"
   },
   {
     "property": "og:description",
-    "content": "Six episodes, no fixed script, but a catchy and compelling story."
+    "content": "Color intelligence algorithms, computer vision palette matching and interactive cloud visualization platform for Histor."
   },
   {
     "property": "og:type",

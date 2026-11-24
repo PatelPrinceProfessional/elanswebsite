@@ -5,19 +5,19 @@ import markup from "@/assets/reference/werk--jamin.html?raw";
 export const Route = createFileRoute("/werk/jamin")({
   head: () => ({ meta: [
   {
-    "title": "Jamin — elansinfotech"
+    "title": "Jamin — Retail POS & Inventory Sync — elansinfotech"
   },
   {
     "name": "description",
-    "content": "Jamin crossed our path while we were filming with another customer. That clicked immediately. Our jokes and ideas matched, and one thing soon led to another."
+    "content": "Automated multi-channel retail inventory engine, edge POS synchronization and real-time supply chain telemetry for Jamin."
   },
   {
     "property": "og:title",
-    "content": "Jamin — elansinfotech"
+    "content": "Jamin — Retail POS & Inventory Sync — elansinfotech"
   },
   {
     "property": "og:description",
-    "content": "Jamin crossed our path while we were filming with another customer. That clicked immediately. Our jokes and ideas matched, and one thing soon led to another."
+    "content": "Automated multi-channel retail inventory engine, edge POS synchronization and real-time supply chain telemetry for Jamin."
   },
   {
     "property": "og:type",

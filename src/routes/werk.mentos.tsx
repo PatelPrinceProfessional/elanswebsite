@@ -5,19 +5,19 @@ import markup from "@/assets/reference/werk--mentos.html?raw";
 export const Route = createFileRoute("/werk/mentos")({
   head: () => ({ meta: [
   {
-    "title": "Mentos — elansinfotech"
+    "title": "Mentos — Global Brand Cloud Hub — elansinfotech"
   },
   {
     "name": "description",
-    "content": "We have been making 3D videos and social content for Mentos for a long time. Pre-rolls on YouTube, paid social on Meta and DOOH for the screens in the supermarket, always in the same rhythm of a brand that must remain continuously visible."
+    "content": "Global digital brand infrastructure, automated asset delivery pipeline and headless distributed edge systems for Mentos."
   },
   {
     "property": "og:title",
-    "content": "Mentos — elansinfotech"
+    "content": "Mentos — Global Brand Cloud Hub — elansinfotech"
   },
   {
     "property": "og:description",
-    "content": "We have been making 3D videos and social content for Mentos for a long time. Pre-rolls on YouTube, paid social on Meta and DOOH for the screens in the supermarket, always in the same rhythm of a brand that must remain continuously visible."
+    "content": "Global digital brand infrastructure, automated asset delivery pipeline and headless distributed edge systems for Mentos."
   },
   {
     "property": "og:type",

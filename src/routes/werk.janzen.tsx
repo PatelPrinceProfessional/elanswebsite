@@ -5,19 +5,19 @@ import markup from "@/assets/reference/werk--janzen.html?raw";
 export const Route = createFileRoute("/werk/janzen")({
   head: () => ({ meta: [
   {
-    "title": "Janzen — elansinfotech"
+    "title": "Janzen — Omni-Channel Commerce — elansinfotech"
   },
   {
     "name": "description",
-    "content": "Can we let the new collection float through the city? Sure! For the launch of the Heavenly collection, we came up with a FOOH campaign in which the product literally lives up to its name. We shot footage ourselves in the streets of 's-Hertogenbosch, then we an"
+    "content": "Distributed omni-channel commerce portal, B2B wholesale API and automated order orchestration architecture for Janzen."
   },
   {
     "property": "og:title",
-    "content": "Janzen — elansinfotech"
+    "content": "Janzen — Omni-Channel Commerce — elansinfotech"
   },
   {
     "property": "og:description",
-    "content": "Can we let the new collection float through the city? Sure! For the launch of the Heavenly collection, we came up with a FOOH campaign in which the product literally lives up to its name. We shot footage ourselves in the streets of 's-Hertogenbosch, then we an"
+    "content": "Distributed omni-channel commerce portal, B2B wholesale API and automated order orchestration architecture for Janzen."
   },
   {
     "property": "og:type",

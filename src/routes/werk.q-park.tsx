@@ -5,19 +5,19 @@ import markup from "@/assets/reference/werk--q-park.html?raw";
 export const Route = createFileRoute("/werk/q-park")({
   head: () => ({ meta: [
   {
-    "title": "Q-Park — elansinfotech"
+    "title": "Q-Park — Smart Mobility Cloud API — elansinfotech"
   },
   {
     "name": "description",
-    "content": "That is why we have been working with and for Q-Park for a long time. Not for one separate production, but as creative makers who figure out how to convey all those different stories in an interesting and inspiring way."
+    "content": "Automated parking mobility API, real-time sensor processing, license plate recognition integration and smart gate cloud management for Q-Park."
   },
   {
     "property": "og:title",
-    "content": "Q-Park — elansinfotech"
+    "content": "Q-Park — Smart Mobility Cloud API — elansinfotech"
   },
   {
     "property": "og:description",
-    "content": "That is why we have been working with and for Q-Park for a long time. Not for one separate production, but as creative makers who figure out how to convey all those different stories in an interesting and inspiring way."
+    "content": "Automated parking mobility API, real-time sensor processing, license plate recognition integration and smart gate cloud management for Q-Park."
   },
   {
     "property": "og:type",

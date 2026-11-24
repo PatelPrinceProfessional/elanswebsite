@@ -5,19 +5,19 @@ import markup from "@/assets/reference/werk--avans.html?raw";
 export const Route = createFileRoute("/werk/avans")({
   head: () => ({ meta: [
   {
-    "title": "Avans — elansinfotech"
+    "title": "Avans — Student Information Gateway — elansinfotech"
   },
   {
     "name": "description",
-    "content": "We have previously created several explanation animations for students and teachers for Avans. With the go-live of Avans One, we were able to set up another great video."
+    "content": "High-availability student information gateway, SSO authentication system and cloud-native microservices architecture for Avans University."
   },
   {
     "property": "og:title",
-    "content": "Avans — elansinfotech"
+    "content": "Avans — Student Information Gateway — elansinfotech"
   },
   {
     "property": "og:description",
-    "content": "We have previously created several explanation animations for students and teachers for Avans. With the go-live of Avans One, we were able to set up another great video."
+    "content": "High-availability student information gateway, SSO authentication system and cloud-native microservices architecture for Avans University."
   },
   {
     "property": "og:type",

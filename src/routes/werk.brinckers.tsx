@@ -5,19 +5,19 @@ import markup from "@/assets/reference/werk--brinckers.html?raw";
 export const Route = createFileRoute("/werk/brinckers")({
   head: () => ({ meta: [
   {
-    "title": "Brinckers — elansinfotech"
+    "title": "Brinckers — IoT E-Bike Telemetry — elansinfotech"
   },
   {
     "name": "description",
-    "content": "One bike, endless possibilities. Brinckers wanted to show with the new Buddy that he moves with you, whoever you are. Solo, with the family or the dog. Thanks to a set of modular accessories, the Buddy changes roles effortlessly. That was the most important me"
+    "content": "Connected IoT telemetry pipeline, real-time vehicle diagnostics API and mobile companion application for Brinckers."
   },
   {
     "property": "og:title",
-    "content": "Brinckers — elansinfotech"
+    "content": "Brinckers — IoT E-Bike Telemetry — elansinfotech"
   },
   {
     "property": "og:description",
-    "content": "One bike, endless possibilities. Brinckers wanted to show with the new Buddy that he moves with you, whoever you are. Solo, with the family or the dog. Thanks to a set of modular accessories, the Buddy changes roles effortlessly. That was the most important me"
+    "content": "Connected IoT telemetry pipeline, real-time vehicle diagnostics API and mobile companion application for Brinckers."
   },
   {
     "property": "og:type",

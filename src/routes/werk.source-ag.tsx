@@ -5,19 +5,19 @@ import markup from "@/assets/reference/werk--source-ag.html?raw";
 export const Route = createFileRoute("/werk/source-ag")({
   head: () => ({ meta: [
   {
-    "title": "Source.ag — elansinfotech"
+    "title": "Source.ag — Agritech AI Engine — elansinfotech"
   },
   {
     "name": "description",
-    "content": "Source.ag builds AI software that helps growers around the world start, manage and scale successful farms. Quite a mouthful."
+    "content": "AI-powered agritech decision engine, predictive yield neural models and real-time greenhouse sensor processing for Source.ag."
   },
   {
     "property": "og:title",
-    "content": "Source.ag — elansinfotech"
+    "content": "Source.ag — Agritech AI Engine — elansinfotech"
   },
   {
     "property": "og:description",
-    "content": "Source.ag builds AI software that helps growers around the world start, manage and scale successful farms. Quite a mouthful."
+    "content": "AI-powered agritech decision engine, predictive yield neural models and real-time greenhouse sensor processing for Source.ag."
   },
   {
     "property": "og:type",

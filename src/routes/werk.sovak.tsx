@@ -5,19 +5,19 @@ import markup from "@/assets/reference/werk--sovak.html?raw";
 export const Route = createFileRoute("/werk/sovak")({
   head: () => ({ meta: [
   {
-    "title": "Sovak — elansinfotech"
+    "title": "Sovak — Healthcare Workforce Cloud — elansinfotech"
   },
   {
     "name": "description",
-    "content": "Sovak is there for everyone with an intellectual disability: living, working, learning, participating. Sovak does this in her own way and we show this through video and animation."
+    "content": "Secure healthcare operations platform, staff scheduling software and enterprise cloud migration for Sovak."
   },
   {
     "property": "og:title",
-    "content": "Sovak — elansinfotech"
+    "content": "Sovak — Healthcare Workforce Cloud — elansinfotech"
   },
   {
     "property": "og:description",
-    "content": "Sovak is there for everyone with an intellectual disability: living, working, learning, participating. Sovak does this in her own way and we show this through video and animation."
+    "content": "Secure healthcare operations platform, staff scheduling software and enterprise cloud migration for Sovak."
   },
   {
     "property": "og:type",

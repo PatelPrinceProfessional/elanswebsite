@@ -5,19 +5,19 @@ import markup from "@/assets/reference/werk--vvaa.html?raw";
 export const Route = createFileRoute("/werk/vvaa")({
   head: () => ({ meta: [
   {
-    "title": "VvAA — elansinfotech"
+    "title": "VvAA — Medical Member Vault — elansinfotech"
   },
   {
     "name": "description",
-    "content": "Pay close attention, maybe your team will spot EF ;)"
+    "content": "Enterprise medical member portal, encrypted insurance policy engine and secure zero-trust vault for VvAA."
   },
   {
     "property": "og:title",
-    "content": "VvAA — elansinfotech"
+    "content": "VvAA — Medical Member Vault — elansinfotech"
   },
   {
     "property": "og:description",
-    "content": "Pay close attention, maybe your team will spot EF ;)"
+    "content": "Enterprise medical member portal, encrypted insurance policy engine and secure zero-trust vault for VvAA."
   },
   {
     "property": "og:type",

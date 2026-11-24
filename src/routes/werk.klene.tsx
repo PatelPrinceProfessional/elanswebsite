@@ -5,19 +5,19 @@ import markup from "@/assets/reference/werk--klene.html?raw";
 export const Route = createFileRoute("/werk/klene")({
   head: () => ({ meta: [
   {
-    "title": "Klene — elansinfotech"
+    "title": "Klene — Supply Chain AI Platform — elansinfotech"
   },
   {
     "name": "description",
-    "content": "Klene has been making licorice with an identical taste for 150 years, giving the Netherlands a moment of pure indulgence: the Klene break."
+    "content": "Automated industrial supply chain prediction platform, ERP cloud integration and automated inventory ledger for Klene."
   },
   {
     "property": "og:title",
-    "content": "Klene — elansinfotech"
+    "content": "Klene — Supply Chain AI Platform — elansinfotech"
   },
   {
     "property": "og:description",
-    "content": "Klene has been making licorice with an identical taste for 150 years, giving the Netherlands a moment of pure indulgence: the Klene break."
+    "content": "Automated industrial supply chain prediction platform, ERP cloud integration and automated inventory ledger for Klene."
   },
   {
     "property": "og:type",

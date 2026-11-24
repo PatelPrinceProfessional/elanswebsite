@@ -5,19 +5,19 @@ import markup from "@/assets/reference/werk--phonehouse.html?raw";
 export const Route = createFileRoute("/werk/phonehouse")({
   head: () => ({ meta: [
   {
-    "title": "Phonehouse — elansinfotech"
+    "title": "Phonehouse — Retail Cloud Operations — elansinfotech"
   },
   {
     "name": "description",
-    "content": "Phonehouse is the local telecom store that positions itself as a neighborhood store, close by, accessible, just that little bit more personal than the big chains."
+    "content": "Telecom retail operations portal, secure subscriber activation APIs and POS cloud integration for Phonehouse."
   },
   {
     "property": "og:title",
-    "content": "Phonehouse — elansinfotech"
+    "content": "Phonehouse — Retail Cloud Operations — elansinfotech"
   },
   {
     "property": "og:description",
-    "content": "Phonehouse is the local telecom store that positions itself as a neighborhood store, close by, accessible, just that little bit more personal than the big chains."
+    "content": "Telecom retail operations portal, secure subscriber activation APIs and POS cloud integration for Phonehouse."
   },
   {
     "property": "og:type",

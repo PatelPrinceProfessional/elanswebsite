@@ -5,19 +5,19 @@ import markup from "@/assets/reference/werk--nationaal-archief.html?raw";
 export const Route = createFileRoute("/werk/nationaal-archief")({
   head: () => ({ meta: [
   {
-    "title": "Nationaal Archief — elansinfotech"
+    "title": "Nationaal Archief — Semantic Search Vault — elansinfotech"
   },
   {
     "name": "description",
-    "content": "The National Archives preserves almost a thousand years of Dutch history: 142 kilometers of documents and 800 terabytes of digital files. The War for the Judge project makes part of that archive surrounding the Second World War more searchable. Sensitive matte"
+    "content": "High-volume digital archive preservation system, OCR vector indexing and semantic search platform for the National Archives."
   },
   {
     "property": "og:title",
-    "content": "Nationaal Archief — elansinfotech"
+    "content": "Nationaal Archief — Semantic Search Vault — elansinfotech"
   },
   {
     "property": "og:description",
-    "content": "The National Archives preserves almost a thousand years of Dutch history: 142 kilometers of documents and 800 terabytes of digital files. The War for the Judge project makes part of that archive surrounding the Second World War more searchable. Sensitive matte"
+    "content": "High-volume digital archive preservation system, OCR vector indexing and semantic search platform for the National Archives."
   },
   {
     "property": "og:type",

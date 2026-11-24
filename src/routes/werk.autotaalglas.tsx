@@ -5,19 +5,19 @@ import markup from "@/assets/reference/werk--autotaalglas.html?raw";
 export const Route = createFileRoute("/werk/autotaalglas")({
   head: () => ({ meta: [
   {
-    "title": "Autotaalglas — elansinfotech"
+    "title": "Autotaalglas — Fleet Management Cloud — elansinfotech"
   },
   {
     "name": "description",
-    "content": "Autotaalglas repairs and replaces car windows throughout the Netherlands. As a permanent partner, we create their social content every month: concepts, animation and social video that show just that little bit more than a repaired window. We are bursting with "
+    "content": "Automated fleet dispatch API, nationwide real-time vehicle booking portal and distributed scheduling platform for Autotaalglas."
   },
   {
     "property": "og:title",
-    "content": "Autotaalglas — elansinfotech"
+    "content": "Autotaalglas — Fleet Management Cloud — elansinfotech"
   },
   {
     "property": "og:description",
-    "content": "Autotaalglas repairs and replaces car windows throughout the Netherlands. As a permanent partner, we create their social content every month: concepts, animation and social video that show just that little bit more than a repaired window. We are bursting with "
+    "content": "Automated fleet dispatch API, nationwide real-time vehicle booking portal and distributed scheduling platform for Autotaalglas."
   },
   {
     "property": "og:type",

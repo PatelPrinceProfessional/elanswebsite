@@ -5,19 +5,19 @@ import markup from "@/assets/reference/werk--floryn.html?raw";
 export const Route = createFileRoute("/werk/floryn")({
   head: () => ({ meta: [
   {
-    "title": "Floryn — elansinfotech"
+    "title": "Floryn — FinTech Lending Engine — elansinfotech"
   },
   {
     "name": "description",
-    "content": "A logo that can go in any direction. Except sitting still."
+    "content": "Low-latency automated business lending pipeline, real-time risk scoring engine and secure credit ledger systems for Floryn."
   },
   {
     "property": "og:title",
-    "content": "Floryn — elansinfotech"
+    "content": "Floryn — FinTech Lending Engine — elansinfotech"
   },
   {
     "property": "og:description",
-    "content": "A logo that can go in any direction. Except sitting still."
+    "content": "Low-latency automated business lending pipeline, real-time risk scoring engine and secure credit ledger systems for Floryn."
   },
   {
     "property": "og:type",

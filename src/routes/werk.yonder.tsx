@@ -5,19 +5,19 @@ import markup from "@/assets/reference/werk--yonder.html?raw";
 export const Route = createFileRoute("/werk/yonder")({
   head: () => ({ meta: [
   {
-    "title": "Yonder — elansinfotech"
+    "title": "Yonder — Unified Campus Portal — elansinfotech"
   },
   {
     "name": "description",
-    "content": "Education group Tilburg and ROC continued together under a new name, Yonder. That name was not yet known to the general public when we were allowed to get started. Under the code name Flamingo, we secretly worked on a FOOH announcement for socials and a first "
+    "content": "Unified higher education portal, multi-campus identity management and cloud services for Yonder."
   },
   {
     "property": "og:title",
-    "content": "Yonder — elansinfotech"
+    "content": "Yonder — Unified Campus Portal — elansinfotech"
   },
   {
     "property": "og:description",
-    "content": "Education group Tilburg and ROC continued together under a new name, Yonder. That name was not yet known to the general public when we were allowed to get started. Under the code name Flamingo, we secretly worked on a FOOH announcement for socials and a first "
+    "content": "Unified higher education portal, multi-campus identity management and cloud services for Yonder."
   },
   {
     "property": "og:type",

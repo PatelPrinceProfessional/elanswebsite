@@ -5,19 +5,19 @@ import markup from "@/assets/reference/werk--veilig-thuis.html?raw";
 export const Route = createFileRoute("/werk/veilig-thuis")({
   head: () => ({ meta: [
   {
-    "title": "Veilig Thuis — elansinfotech"
+    "title": "Veilig Thuis — Incident Dispatch Cloud — elansinfotech"
   },
   {
     "name": "description",
-    "content": "Safe at Home helps people who are dealing with domestic violence or child abuse. Clear, accessible communication is essential - also online. We made a series of explainer videos for their website and social content for Meta and LinkedIn."
+    "content": "Mission-critical emergency dispatch portal, zero-trust encrypted communications and fault-tolerant cloud infrastructure for Veilig Thuis."
   },
   {
     "property": "og:title",
-    "content": "Veilig Thuis — elansinfotech"
+    "content": "Veilig Thuis — Incident Dispatch Cloud — elansinfotech"
   },
   {
     "property": "og:description",
-    "content": "Safe at Home helps people who are dealing with domestic violence or child abuse. Clear, accessible communication is essential - also online. We made a series of explainer videos for their website and social content for Meta and LinkedIn."
+    "content": "Mission-critical emergency dispatch portal, zero-trust encrypted communications and fault-tolerant cloud infrastructure for Veilig Thuis."
   },
   {
     "property": "og:type",

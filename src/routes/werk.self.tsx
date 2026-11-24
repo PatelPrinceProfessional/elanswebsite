@@ -5,19 +5,19 @@ import markup from "@/assets/reference/werk--self.html?raw";
 export const Route = createFileRoute("/werk/self")({
   head: () => ({ meta: [
   {
-    "title": "Self — elansinfotech"
+    "title": "Self — Healthcare Telemetry Cloud — elansinfotech"
   },
   {
     "name": "description",
-    "content": "Self guides, treats and supports children, young people, families and (young) adults who are stuck, where necessary. They invest in a relationship of trust and work step by step towards human and desirable behavior, so that families participate again in societ"
+    "content": "HIPAA/GDPR-compliant healthcare portal, telehealth streaming architecture and secure patient telemetry platform for Self."
   },
   {
     "property": "og:title",
-    "content": "Self — elansinfotech"
+    "content": "Self — Healthcare Telemetry Cloud — elansinfotech"
   },
   {
     "property": "og:description",
-    "content": "Self guides, treats and supports children, young people, families and (young) adults who are stuck, where necessary. They invest in a relationship of trust and work step by step towards human and desirable behavior, so that families participate again in societ"
+    "content": "HIPAA/GDPR-compliant healthcare portal, telehealth streaming architecture and secure patient telemetry platform for Self."
   },
   {
     "property": "og:type",

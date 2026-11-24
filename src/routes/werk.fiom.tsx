@@ -5,19 +5,19 @@ import markup from "@/assets/reference/werk--fiom.html?raw";
 export const Route = createFileRoute("/werk/fiom")({
   head: () => ({ meta: [
   {
-    "title": "Fiom — elansinfotech"
+    "title": "Fiom — Zero-Trust Medical Vault — elansinfotech"
   },
   {
     "name": "description",
-    "content": "For the Vindplaats project, something was added that you can't just put in a video."
+    "content": "Zero-trust encrypted database vault, HIPAA/GDPR-compliant record management system and secure client portal for Fiom."
   },
   {
     "property": "og:title",
-    "content": "Fiom — elansinfotech"
+    "content": "Fiom — Zero-Trust Medical Vault — elansinfotech"
   },
   {
     "property": "og:description",
-    "content": "For the Vindplaats project, something was added that you can't just put in a video."
+    "content": "Zero-trust encrypted database vault, HIPAA/GDPR-compliant record management system and secure client portal for Fiom."
   },
   {
     "property": "og:type",

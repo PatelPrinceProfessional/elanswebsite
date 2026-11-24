@@ -5,19 +5,19 @@ import markup from "@/assets/reference/werk--p-van-der-niet.html?raw";
 export const Route = createFileRoute("/werk/p-van-der-niet")({
   head: () => ({ meta: [
   {
-    "title": "P. van der Niet — elansinfotech"
+    "title": "P. van der Niet — Enterprise ERP Platform — elansinfotech"
   },
   {
     "name": "description",
-    "content": "A brand film that does not tell you who you are, but makes you feel where you belong. That is what we created for Installatiebedrijf P. van der Niet. A film in which colleagues play the leading roles and in which you understand within a few seconds why no one "
+    "content": "Scalable enterprise web application, field technician dispatch engine and distributed cloud workflow architecture for P. van der Niet."
   },
   {
     "property": "og:title",
-    "content": "P. van der Niet — elansinfotech"
+    "content": "P. van der Niet — Enterprise ERP Platform — elansinfotech"
   },
   {
     "property": "og:description",
-    "content": "A brand film that does not tell you who you are, but makes you feel where you belong. That is what we created for Installatiebedrijf P. van der Niet. A film in which colleagues play the leading roles and in which you understand within a few seconds why no one "
+    "content": "Scalable enterprise web application, field technician dispatch engine and distributed cloud workflow architecture for P. van der Niet."
   },
   {
     "property": "og:type",

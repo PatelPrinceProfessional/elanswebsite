@@ -5,19 +5,19 @@ import markup from "@/assets/reference/werk--holland-casino.html?raw";
 export const Route = createFileRoute("/werk/holland-casino")({
   head: () => ({ meta: [
   {
-    "title": "Holland Casino — elansinfotech"
+    "title": "Holland Casino — Gaming Telemetry — elansinfotech"
   },
   {
     "name": "description",
-    "content": "Holland Casino organizes poker festivals throughout the year at various locations. Rotterdam Rounders was one of them, nine days in December. Such a tournament must be promoted to players in advance."
+    "content": "Low-latency real-time tournament telemetry platform, secure payout verification and high-concurrency gaming microservices for Holland Casino."
   },
   {
     "property": "og:title",
-    "content": "Holland Casino — elansinfotech"
+    "content": "Holland Casino — Gaming Telemetry — elansinfotech"
   },
   {
     "property": "og:description",
-    "content": "Holland Casino organizes poker festivals throughout the year at various locations. Rotterdam Rounders was one of them, nine days in December. Such a tournament must be promoted to players in advance."
+    "content": "Low-latency real-time tournament telemetry platform, secure payout verification and high-concurrency gaming microservices for Holland Casino."
   },
   {
     "property": "og:type",

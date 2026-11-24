@@ -5,19 +5,19 @@ import markup from "@/assets/reference/werk--easytoys.html?raw";
 export const Route = createFileRoute("/werk/easytoys")({
   head: () => ({ meta: [
   {
-    "title": "Easytoys — elansinfotech"
+    "title": "Easytoys — High-Concurrency Commerce — elansinfotech"
   },
   {
     "name": "description",
-    "content": "Something different, because for us, acting normal is far from crazy enough. What we are also proud of: our brainfarts that we quickly transform into designs. Like this social content for Easytoys."
+    "content": "High-throughput e-commerce microservices, real-time catalog search and distributed inventory sync engine for Easytoys."
   },
   {
     "property": "og:title",
-    "content": "Easytoys — elansinfotech"
+    "content": "Easytoys — High-Concurrency Commerce — elansinfotech"
   },
   {
     "property": "og:description",
-    "content": "Something different, because for us, acting normal is far from crazy enough. What we are also proud of: our brainfarts that we quickly transform into designs. Like this social content for Easytoys."
+    "content": "High-throughput e-commerce microservices, real-time catalog search and distributed inventory sync engine for Easytoys."
   },
   {
     "property": "og:type",

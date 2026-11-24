@@ -5,19 +5,19 @@ import markup from "@/assets/reference/werk--odido.html?raw";
 export const Route = createFileRoute("/werk/odido")({
   head: () => ({ meta: [
   {
-    "title": "Odido — elansinfotech"
+    "title": "Odido — Telecom Mobile Architecture — elansinfotech"
   },
   {
     "name": "description",
-    "content": "Together with the ACT agency, we contributed to the go-live of the rebrand: Odido, and that was not a matter of one studio delivering something. We worked in secret, together with other production houses like BUCK and Code d'Azur, all building the same brand a"
+    "content": "High-throughput mobile application architecture, subscriber self-service APIs and edge streaming services for Odido."
   },
   {
     "property": "og:title",
-    "content": "Odido — elansinfotech"
+    "content": "Odido — Telecom Mobile Architecture — elansinfotech"
   },
   {
     "property": "og:description",
-    "content": "Together with the ACT agency, we contributed to the go-live of the rebrand: Odido, and that was not a matter of one studio delivering something. We worked in secret, together with other production houses like BUCK and Code d'Azur, all building the same brand a"
+    "content": "High-throughput mobile application architecture, subscriber self-service APIs and edge streaming services for Odido."
   },
   {
     "property": "og:type",
