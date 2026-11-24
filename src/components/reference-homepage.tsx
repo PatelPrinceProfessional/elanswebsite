@@ -4,11 +4,16 @@ import parse, { attributesToProps, domToReact, Element as ParsedElement, type DO
 import { Button } from "@/components/ui/button";
 import homepage from "@/assets/reference/homepage.html?raw";
 import { referenceRoutes } from "@/lib/reference-routes";
+import { CoverflowGallery } from "@/components/coverflow-gallery";
 
 const options: HTMLReactParserOptions = {
   replace(node) {
     if (!(node instanceof ParsedElement)) return undefined;
     if (node.name === "link" || node.name === "script") return <></>;
+    if (node.name === "img" || node.name === "picture") return <></>;
+    if (node.attribs && (node.attribs['data-motion-coverflow'] !== undefined || node.attribs['data-featured-stack'] !== undefined)) {
+      return <CoverflowGallery initialIndex={3} />;
+    }
     if (node.name === "a" && !node.attribs['rd-cookieflow']) {
       let rawHref = node.attribs['href'] || '/';
       // Strip any external domain prefixes

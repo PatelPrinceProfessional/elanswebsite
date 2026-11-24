@@ -484,3 +484,28 @@ body, h1, h2, h3, p, a, span { letter-spacing: 0; }
   height: 14px;
 }
 
+/* ==========================================================================
+   Clean Typography & Zero-Images Mode
+   Completely suppresses all <img>, <picture>, and media-only photo blocks
+   across the entire website for pure typography and layout.
+   ========================================================================== */
+img,
+picture,
+.intro_col.is-media,
+.cursor-card,
+.bunny-bg {
+  display: none !important;
+}
+
+/* Balance intro layout without media collage */
+.intro_wrapper {
+  grid-template-columns: 1fr !important;
+  justify-content: center !important;
+}
+
+.intro_col {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+
