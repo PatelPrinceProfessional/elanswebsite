@@ -5123,12 +5123,13 @@ figcaption {
 }
 
 .nav-logo {
-  width: 10em;
+  width: auto;
+  min-width: max-content;
   color: var(--_colors---swatch--blue);
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
   padding-top: .5em;
-  display: flex;
+  display: inline-flex;
 }
 
 .nav-link {
@@ -12242,7 +12243,7 @@ textarea {
 
 .nav-logo_name {
   font-family: 'Boska', 'Playfair Display', Georgia, serif;
-  font-size: 2em;
+  font-size: 4em;
   font-weight: 700;
   text-transform: lowercase;
   display: inline-block;
@@ -12254,7 +12255,7 @@ textarea {
 
 .nav-logo_sub {
   font-family: 'Plus Jakarta Sans', var(--_fonts---fonts--heading), sans-serif;
-  font-size: 1.15em;
+  font-size: 2.3em;
   font-weight: 500;
   color: #001fe8;
   opacity: 0.72;
