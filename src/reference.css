@@ -12241,12 +12241,12 @@ textarea {
 }
 
 .nav-logo_name {
-  font-family: 'Syne', var(--_fonts---fonts--heading), sans-serif;
+  font-family: 'Boska', 'Playfair Display', Georgia, serif;
   font-size: 2em;
-  font-weight: 800;
+  font-weight: 700;
   text-transform: lowercase;
   display: inline-block;
-  letter-spacing: -0.045em;
+  letter-spacing: -0.03em;
   color: #001fe8;
   text-shadow: 0 0 20px rgba(0, 31, 232, 0.25);
   transition: color 0.35s ease, text-shadow 0.35s ease, transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
@@ -12312,8 +12312,9 @@ textarea {
 }
 
 .footer-logo .nav-logo_name {
+  font-family: 'Boska', 'Playfair Display', Georgia, serif;
   font-size: 3.1em;
-  font-weight: 800;
+  font-weight: 700;
   color: #ffffff;
   text-shadow: 0 0 30px rgba(0, 210, 255, 0.3);
 }

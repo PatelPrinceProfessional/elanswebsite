@@ -1,3 +1,4 @@
+@import url("https://api.fontshare.com/v2/css?f[]=boska@200,300,400,500,700,900,201,301,401,501,701,901&display=swap");
 @import "tailwindcss" source(none);
 @source "../src";
 @import "tw-animate-css";
@@ -506,6 +507,17 @@ picture,
 .intro_col {
   max-width: 720px;
   margin: 0 auto;
+}
+
+/* Boska Brand Font for 'elans' in Header & Footer */
+.nav-logo_name,
+.nav-logo .nav-logo_name,
+.footer-logo .nav-logo_name,
+.footer-main_logo .nav-logo_name,
+.footer-copy-elans {
+  font-family: 'Boska', 'Playfair Display', Georgia, serif !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.02em;
 }
 
 
